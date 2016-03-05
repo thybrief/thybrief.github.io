@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Patua+One);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Antic+Slab);
+@import url(https://fonts.googleapis.com/css?family=Noticia+Text:400italic);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+body{
+	
+	background-color:#fff;
+	
+	width:100%;
+}
+#part1 { 
+  display: block;
+  position: fixed;
+  width:39%;
+  float:left;
+  left:0;
+  top:0;
+  z-index: 10000;
+  padding:10px 10px 10px 10px;
+  
+  height:100%;
+  font-weight: 700;
+  color:#000;
+  
+}
+#part2{
+	font-family: 'Special Elite', cursive;
+	display: block;
+	position: fixed;
+  
+	top:0;
+	right:0;
+	width:60%;
+	height:100%;
+	
+	z-index: 10000;
+ 
+	
+  
+}
+
+#form {font-family: 'Special Elite', cursive;
+	position:relative;
+	text-align:center;
+	background-color:red;
+	padding: 10px 50px 50px 10px;
+	display:block;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+#forward
+{	font-family: 'Special Elite', cursive;
+	text-align:center;
+	color:#000;
+	position:relative;
+	bottom:10px;
+	display:block;
+	top:10px;
+	padding: 10px 10px 50px 10px;
+	
+}
+
+.footer{
+	display:block;
+	background-color:#fff;
+	position:fixed;
+	bottom:50px;
+	width:39%;
+	text-align:center;
+}
+ #foot {font-family: 'Special Elite', cursive;
+	position:relative;
+	padding: 10px 10px 20px 10px;
+	color:#000;
+	
+	
+}
+
+
+.two h1{ text-align:center;font-family: 'Patua One', cursive; padding:10px 10px 10px 10px;line-height:10px;margin-bottom:10px;font-size:60px;}
+.two h2{text-align:center;font-family: 'Antic Slab', serif; padding:10px 10px 20px 10px; margin-top:1px;}
+.two h4{ padding:10px 10px 10px 10px;}
+.two label{ padding:10px 10px 10px 10px;}
+.two p { text-align:center;font-family: 'Noticia Text', serif;padding: 10px 10px 10px 10px; display: block; position:relative; font-size:20px;}
+
+.one video{
+	top:0;
+	width:200%;
+position:relative;	
+z-index:10000;
+display:block; 
+  opacity:0.5;
+  }
