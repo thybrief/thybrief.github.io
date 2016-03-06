@@ -38,7 +38,7 @@ body{
 	z-index: 10000;
 }
 
-#form {font-family: 'Special Elite', cursive;
+#form {font-family: 'Quicksand', sans-serif;
 	position:relative;
 	text-align:center;
 	color:#fff;
@@ -56,7 +56,7 @@ input[type="text"] {
   border: solid 2px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s;
   
-  font-family: 'Special Elite', cursive;
+ font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   
   
@@ -68,14 +68,14 @@ input[type="submit"] {
   border: solid 2px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s;
   
-  font-family: 'Special Elite', cursive;
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   
   
   border-radius: none;
 }
 #forward
-{	font-family: 'Special Elite', cursive;
+{	font-family: 'Quicksand', sans-serif;
 	text-align:center;
 	color:#000;
 	position:relative;
@@ -94,7 +94,7 @@ input[type="submit"] {
 	width:39%;
 	text-align:center;
 }
- #foot {font-family: 'Special Elite', cursive;
+ #foot {font-family: 'Quicksand', sans-serif;
 	position:relative;
 	padding: 10px 10px 20px 10px;
 	color:#000;
