@@ -48,13 +48,14 @@ width:100%;z-index:10;
 .footer{
 	display:block;
 	background-color:#fff;
-	position:fixed;
+	position:absolute;
 	bottom:0px;
 	left:0px;
 	width:100%;
 	box-shadow: 0 0 10px rgba(0,0,0,.5);
 	background-color:#006DC1;
-	color:white;z-index:10;
+	color:white;
+	z-index:1;
 }
  #foot {font-family: 'Special Elite', cursive;
 	position:relative;
