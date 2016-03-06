@@ -66,7 +66,8 @@ width:100%;z-index:100;
 	margin:0 auto;
 }
 .block1 a{ text-decoration:none;}
-
+.block1 h2{ font-size:20px;}
+.block1 h2{ font-size:16px;}
 .foote{
 	display:block;
 	background-color:#fff;
