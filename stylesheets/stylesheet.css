@@ -12,9 +12,9 @@ width:100%;z-index:100;
 
 }
 body{
-	
+	background-color:#fff;
 	margin:0 auto;
-	
+	position:relative;
 	margin-bottom:0px;
 	
 }
@@ -77,12 +77,17 @@ footer {
 }
 .block1{font-family: 'Oxygen', sans-serif;
 	width:60%;
+	
 	position:relative;
-	margin:0 auto;
+	margin:20px auto;
+	padding: 10px 10px 10px 10px;
+	opacity:0.9;
+	
 }
 .block1 a{ text-decoration:none;}
-.block1 h2{ font-size:20px;}
-.block1 h2{ font-size:16px;}
+.block1 h2{font-size:24px; color:#10171a;text-align:left;font-weight:800; margin-top:10px;padding-top:10px; }
+.block1 h3{margin-top:0; font-size:14px;text-align:left;color:#6F6F6F;padding-top:2px;font-weight:400; font-size:16px;}
+.dater {font-size:10px;font-family:'Lato',sans-serif;text-transform:uppercase;font-weight:800;letter-spacing:1px;color:#10171a;padding-top:10px; padding-bottom:10px;}
 .foote{
 	display:block;
 	background-color:#fff;
@@ -108,6 +113,7 @@ footer {
 }
 .foote a{ text-decoration:none;}
 #form {
+	
 	text-align:center;
 	font-family: 'Quicksand', sans-serif;
 	position:relative;
@@ -119,6 +125,60 @@ footer {
 	z-index:1;
     font-size:18px;
 }
+#form1 {opacity:1;
+	
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	position:relative;
+	top:30%;
+	text-align:center;
+	color:#fff;
+	background-color:#006DC1;
+	padding: 10px 50px 50px 10px;
+	display:block;
+	z-index:1;
+    font-size:32px;
+}
+
+#form1 #mce-EMAIL {
+	opacity:1;
+	padding: 15px;
+  border: solid 2px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  border-radius: none;
+}
+
+#form1 #mc-embedded-subscribe {
+	opacity:1;
+	padding: 15px;
+  border: solid 2px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  
+  
+  border-radius: none;
+	
+}
+#demo {
+	
+}
+button[type="button"]
+{z-index:10;
+  position:fixed;
+ font-family: 'Quicksand', sans-serif;
+  right: 0px;
+  top:0;
+  color: #fff;
+  background-color:#006DC1;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding: 20px 15px 17px 15px;}
 input[type="email"] {
 	
     padding: 10px;
