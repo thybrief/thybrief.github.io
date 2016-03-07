@@ -77,7 +77,7 @@ footer {
 }
 .block1{font-family: 'Oxygen', sans-serif;
 	width:60%;
-	
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
 	position:relative;
 	margin:20px auto;
 	padding: 10px 10px 10px 10px;
