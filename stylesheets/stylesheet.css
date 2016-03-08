@@ -4,7 +4,7 @@
 
 .layout {
 	display:block;
-	position: fixed;	
+	position: fixed;
 	 box-shadow: 0 0 10px rgba(0,0,0,.5);
 	top:0;
 	left:0;
@@ -16,7 +16,7 @@ body{
 	margin:0 auto;
 	position:relative;
 	margin-bottom:0px;
-	
+
 }
 
 .layout h1 {z-index:10; position:absolute; font-family: 'Patua One', cursive;  background-color:#fff; color:#000; padding:10px 10px 10px 20px; left:0; margin-top:0; font-size:27px;}
@@ -43,14 +43,14 @@ body{
 	z-index:10;
 	margin-left:120px;
 	padding:17px 10px 17px 10px;
-	
+
 }
  #menu1 {font-family: 'Quicksand', sans-serif;
 	position:relative;
 	padding: 10px 10px 10px 10px;
 	color:#000;
-	
-	
+
+
 }
 .menu a{ text-decoration:none;}
 footer {
@@ -65,15 +65,15 @@ footer {
 	position:relative;
 	max-width:1200px;
 	background-color:white;
-	
+
 	font-family: 'Quicksand', sans-serif;
 	margin: 0 auto;
 	padding:60px 20px 40px 40px;
-	text-align:center; 
+	text-align:center;
 }
- #older {     
+ #older {
 	padding:10px 10px 10px 10px; background-color:grey;  text-decoration:none;  color:white;  box-shadow: 0 0 10px rgba(0,0,0,.5);
-	
+
 }
 .block1{font-family: 'Oxygen', sans-serif;
 	width:60%;
@@ -82,7 +82,7 @@ footer {
 	margin:20px auto;
 	padding: 10px 10px 10px 10px;
 	opacity:0.9;
-	
+
 }
 .block1 a{ text-decoration:none;}
 .block1 h2{font-size:24px; color:#10171a;text-align:left;font-weight:800; margin-top:10px;padding-top:10px; }
@@ -100,7 +100,7 @@ footer {
 	color:white;
 	font-family: 'Quicksand', sans-serif;
 	z-index:10;
-	
+
 }
 
  .foote #foot {
@@ -113,7 +113,7 @@ footer {
 }
 .foote a{ text-decoration:none;}
 #form {
-	
+
 	text-align:center;
 	font-family: 'Quicksand', sans-serif;
 	position:relative;
@@ -126,11 +126,11 @@ footer {
     font-size:18px;
 }
 #form1 {opacity:1;
-	
+
 	text-align:center;
 	font-family: 'Quicksand', sans-serif;
 	position:relative;
-	top:30%;
+	top:10%;
 	text-align:center;
 	color:#fff;
 	background-color:#006DC1;
@@ -155,16 +155,16 @@ footer {
 	padding: 15px;
   border: solid 2px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s;
-  
+
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
-  
-  
+
+
   border-radius: none;
-	
+
 }
 #demo {
-	
+
 }
 button[type="button"]
 {z-index:10;
@@ -180,26 +180,26 @@ button[type="button"]
   border-bottom-right-radius: 2px;
   padding: 20px 15px 17px 15px;}
 input[type="email"] {
-	
+
     padding: 10px;
   border: solid 2px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s;
-  
+
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
-  
-  
+
+
   border-radius: none;
 }
 input[type="submit"] {
-	
+
     padding: 10px;
   border: solid 2px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s;
-  
+
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
-  
-  
+
+
   border-radius: none;
 }
