@@ -5,12 +5,12 @@
 @import url(https://fonts.googleapis.com/css?family=Noticia+Text:400italic);
 @import url(https://fonts.googleapis.com/css?family=Special+Elite);
 body{
-	
+
 	background-color:#fff;
-	
+
 	width:100%;
 }
-#part1 { 
+#part1 {
   display: block;
   position: fixed;
   width:39%;
@@ -19,26 +19,26 @@ body{
   top:0;
   z-index: 10000;
   padding:10px 10px 10px 10px;
-  
+
   height:100%;
   font-weight: 700;
   color:#000;
-  
+
 }
 #part2{
 	font-family: 'Special Elite', cursive;
 	display: block;
 	position: fixed;
-  
+
 	top:0;
 	right:0;
 	width:60%;
 	height:100%;
-	
+
 	z-index: 10000;
 }
 
-#form {font-family: 'Quicksand', sans-serif;
+#form {font-family: 'Lato', sans-serif;;
 	position:relative;
 	text-align:center;
 	color:#fff;
@@ -51,27 +51,27 @@ body{
   font-size:18px;
 }
 input[type="text"] {
-	
+
     padding: 10px;
   border: solid 2px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s;
-  
+
  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
-  
-  
+
+
   border-radius: none;
 }
 input[type="submit"] {
-	
+
     padding: 10px;
   border: solid 2px #dcdcdc;
   transition: box-shadow 0.3s, border 0.3s;
-  
+
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
-  
-  
+
+
   border-radius: none;
 }
 #forward
@@ -99,7 +99,7 @@ input[type="submit"] {
 	padding: 10px 10px 20px 10px;
 	color:#000;
 	text-decoration:none;
-	
+
 }
 
 
@@ -112,8 +112,8 @@ input[type="submit"] {
 .one video{
 	top:0;
 	width:200%;
-position:relative;	
+position:relative;
 z-index:10000;
-display:block; 
+display:block;
   opacity:0.3;
   }
