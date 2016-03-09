@@ -104,7 +104,7 @@ input[type="submit"] {
 
 
 .two h1{ text-align:center;font-family: 'Patua One', cursive; padding:10px 10px 10px 10px;display:block;position:relative; line-height:10px;margin-bottom:10px;font-size:60px;}
-.two h2{text-align:center;font-family: 'Antic Slab', serif; padding:10px 10px 20px 10px; margin-top:1px; }
+.two h2{text-align:center;font-family: 'Lato', sans-serif; padding:10px 10px 20px 10px; margin-top:1px; }
 .two h4{ padding:10px 10px 10px 10px;}
 .two label{ padding:10px 10px 10px 10px;}
 .two p { text-align:center;font-family: 'Noticia Text', serif;padding: 10px 10px 10px 10px; display: block; position:relative; font-size:20px;}
