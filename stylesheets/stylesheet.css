@@ -110,6 +110,19 @@ margin:5px auto;
 .block1 h2{font-size:24px; color:#10171a;text-align:left;font-weight:400; margin-top:10px;padding-top:10px;}
 .block1 h3{margin-top:0; font-size:14px;text-align:left;color:#6F6F6F;padding-top:2px;font-weight:200; font-size:16px;}
 .dater {font-size:10px;font-family:'Lato',sans-serif;text-transform:uppercase;font-weight:800;letter-spacing:1px;color:#10171a;padding-top:10px; padding-bottom:10px;}
+.block1 #image {
+	max-width:100%;
+	box-shadow:-5px 5px 8px rgba(0,0,0,.15);
+	position:relative;
+
+}
+.block1 #Yourstory {
+	display:none;
+	font-size:18px;
+	transition:height 3s;
+	postion:absolute;
+	background: rgba(255, 0, 0, 0.5);
+}
 .foote{
 	display:block;
 	background-color:#fff;
@@ -145,19 +158,29 @@ margin:5px auto;
 	z-index:1;
     font-size:18px;
 }
-#form1 {
 
+#demo {
+	background:rgba(255,255,255,0.81);
+	position: fixed;
+	width:100%;
+	height:100%;
+	display:none;
+
+	}
+
+#form1 {
 	text-align:center;
 	font-family: 'Lato', sans-serif;
 	position:relative;
-	top:10%;
+
+	margin:15% 25% 25% 25%;
 	text-align:center;
 	color:#fff;
 	background-color:#006DC1;
 	padding: 10px 50px 50px 10px;
 	display:block;
 	z-index:1;
-    font-size:32px;
+  font-size:32px;
 }
 
 #form1 #mce-EMAIL {
@@ -183,9 +206,7 @@ margin:5px auto;
   border-radius: none;
 
 }
-#demo {
 
-}
 button[type="button"]
 {z-index:10;
   position:fixed;
