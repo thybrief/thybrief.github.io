@@ -21,6 +21,49 @@
 
 
     <body onload="setTimeout(subscribeon,30000)">
+      <script type="text/javascript">
+$(document).ready(function(){
+        $('#share_button1').click(function(e){
+            e.preventDefault();
+            FB.ui(
+            {
+                method: 'feed',
+                name: "{{ user_name }}'s FOF",
+                link: "https://mysite.com/uploader/{{current_fof}}/share_fof/",
+                picture: imgsArray[0].src,
+                caption: window.location.href,
+                description: 'This FOF was taken by {{ user_name }}',
+                message: ''
+            });
+        });
+        $('#share_button2').click(function(e){
+            e.preventDefault();
+            FB.ui(
+            {
+                method: 'feed',
+                name: "{{ user_name }}'s FOF",
+                link: "https://mysite.com/uploader/{{current_fof}}/share_fof/",
+                picture: imgsArray[0].src,
+                caption: window.location.href,
+                description: 'This FOF was taken by {{ user_name }}',
+                message: ''
+            });
+        });
+        $('#share_button3').click(function(e){
+            e.preventDefault();
+            FB.ui(
+            {
+                method: 'feed',
+                name: "{{ user_name }}'s FOF",
+                link: "https://mysite.com/uploader/{{current_fof}}/share_fof/",
+                picture: imgsArray[0].src,
+                caption: window.location.href,
+                description: 'This FOF was taken by {{ user_name }}',
+                message: ''
+            });
+        });
+});
+</script>
       <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -103,6 +146,9 @@
 
                          <div style="display:block; position:relative; margin-top:60px; " ><a id="older" href="index2.html">Older</a></div>
                           </div>
+                          <div class="share"> <img src = "{{ STATIC_URL }}images/share_facebook.png" id="share_button1" type='button_count'></div>
+<div class="share"> <img src = "{{ STATIC_URL }}images/share_facebook.png" id="share_button2" type='button_count'></div>
+<div class="share"> <img src = "{{ STATIC_URL }}images/share_facebook.png" id="share_button3" type='button_count'></div>
 
 
 	</body>
