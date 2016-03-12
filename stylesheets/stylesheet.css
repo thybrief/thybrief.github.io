@@ -122,6 +122,28 @@ margin:5px auto;
 	postion:absolute;
 	background: rgba(255, 0, 0, 0.5);
 }
+.partners {
+	right:0px;
+	bottom:240px;
+	width:140px;
+	position:absolute;
+	background:#dcdcdc;
+	transition: width 2s, height 4s;
+	font-family: 'Lato', sans-serif;
+	text-align:center;
+	height:auto;
+	z-index:1000000;
+	padding:0 auto;
+}
+.partners:hover {
+	right:0px;
+	bottom:240px;
+	width:100%;
+	height:20%;
+	position:fixed;
+	background:#dcdcdc;
+	z-index:100;
+}
 .foote{
 	display:block;
 	background-color:#fff;
