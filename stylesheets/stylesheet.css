@@ -61,6 +61,8 @@ width:100%;z-index:1000;
 }
 #about {
 display:none;
+text-align:center;
+font-family:'Lato', sans-serif;
 position:fixed;
 width:100%;
 height:auto;
