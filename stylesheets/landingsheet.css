@@ -1,9 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
 @import url(https://fonts.googleapis.com/css?family=Patua+One);
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
-@import url(https://fonts.googleapis.com/css?family=Antic+Slab);
-@import url(https://fonts.googleapis.com/css?family=Noticia+Text:400italic);
-@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+
 body{
 
 	background-color:#fff;
@@ -79,10 +76,8 @@ input[type="submit"] {
 	text-align:center;
 	color:#000;
 	position:relative;
-	bottom:10px;
+	padding-top:30px;
 	display:block;
-	top:10px;
-	padding: 10px 10px 50px 10px;
 	text-decoration:none;
 }
 
