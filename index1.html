@@ -2,201 +2,157 @@
 <html>
 
   <head>
-  <meta charset='utf-8'>
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-  <meta property="og:url"           content="http://thyrbrief.co" />
-	<meta property="og:type"          content="website" />
-	<meta property="og:title"         content="thybrief" />
-	<meta property="og:description"   content="Newsletter for the savvy you" />
-	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <script src="javascripts/popup.js" type="text/javascript">
-  </script>
-  <script>
-  function change() {
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta property="og:url"           content="http://thyrbrief.co" />
+      	<meta property="og:type"          content="website" />
+      	<meta property="og:title"         content="thybrief" />
+      	<meta property="og:description"   content="Newsletter for the savvy you" />
+      	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+      	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
-    var x = document.getElementById('partner');
+        <script src="javascripts/popup.js" type="text/javascript"></script>
+        <script src="javascripts/switch.js" type="text/javascript">
+        </script>
 
-    x.style.width="100%";
-    x.style.height="100%";
-    x.style.top="30px";
-    x.style.position="fixed";
-    x.style.padding="15% 0 0 0";
-    x.style.margin="20px 0 0 0";
-    x.style.display="block";
-    x.style.left="0px";
-    x.style.fontSize="40px";
-    x.style.index="10000000";
-    x.style.background="rgba(255,355,255,0.9)";
-    x.onclick=function(){change1()};
+        <title>thybrief</title>
 
-    var y=document.getElementById("foot");
-    y.style.display="none";
-
-
-  };
-
-  function change1() {
-  var x = document.getElementById('partner');
-
-        x.style.height="auto"
-        x.style.position="relative";
-        x.style.padding="0px 0px 0px 0px";
-        x.style.top="0px";
-        x.style.textAlign="center"
-        x.style.display="block";
-        x.style.left="none";
-        x.style.fontSize="16px";
-        x.style.index="auto";
-        x.style.background="rgba(255,355,255,1)";
-        x.onclick=function(){change()};
-        var y=document.getElementById("foot");
-        y.style.display="block";
-  };
-  </script>
-
-  <title>thybrief</title>
   </head>
 
 
-    <body onload="setTimeout(subscribeon,30000)">
+  <body onload="setTimeout(subscribeon,30000)">
 
-      <div id="fb-root"></div>
+        <header class="layout">
+            <h1 style="color:#006DC1;">thybrief</h1>
 
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-            <header class="layout">
-                        	<h1 style="color:#006DC1;">thy<span style="color:#D57E0C;">brief<span></h1>
+            <div class="menu">
+            <a id="menu1" href="index1.html">Home</a>
+            <a id="menu1" href="archive.html">Briefs</a>
+            <a id="menu1" href="" onclick="about();return false;">About</a>
+            </div>
 
-                          <div class="menu">
-                          <a id="menu1" href="index1.html">Home</a>
-                          <a id="menu1" href="archive.html">Briefs</a>
-                          <a id="menu1" href="index1.html">Merchandise</a>
+            <a id="forkme_banner" onclick="subscribeon();return false;" >Subscribe</a>
+
+
+            <div id="demo" >
+                <div id= "form1" style="display:none;">
+                    <img src="https://cdn4.iconfinder.com/data/icons/status-1/128/Status_check_mark_no_thick_bold-512.png" onclick="subscribeoff()" style="width:3%;margin-left:80%;" scale="0">
+                <!-- Begin MailChimp Signup Form -->
+                    <div id="mc_embed_signup">
+                      <form action="//nirbhaygp.us12.list-manage.com/subscribe/post?u=158b6038bc93094d48f684434&amp;id=d3ade853f6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                          <div id="mc_embed_signup_scroll">
+                              	<p> Get this in your inbox to start your day, subscribe to our daily newsletter.<p>
+
+                                <div class="mc-field-group">
+                              	   <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="john@example.com"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" onclick="subscribeoff()">
+                                </div>
+                            	  <div id="mce-responses" class="clear">
+                            		    <div class="response" id="mce-error-response" style="display:none"></div>
+                            		    <div class="response" id="mce-success-response" style="display:none"></div>
+                              	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+                                <div class="clear" style></div>
                           </div>
+                      </form>
+                    </div>
 
-                          <a id="forkme_banner" onclick="subscribeon();return false;" >Subscribe</a>
+                <!--End mc_embed_signup-->
 
+                </div>
+            </div>
+            <div id="about" onclick="unabout()">
+                <h1>Who are we</h1>
+                <h2>Nirbhay Gupta</h2>
+                <span></span>
+                <h2>Shubham Ruhela</h2>
+                <span></span>
 
-                          <div id="demo" >
-                                              <div id= "form1" style="display:none;">
-                                              <img src="https://cdn4.iconfinder.com/data/icons/status-1/128/Status_check_mark_no_thick_bold-512.png" onclick="subscribeoff()" style="width:3%;margin-left:80%;" scale="0">
-                                              <!-- Begin MailChimp Signup Form -->
-                                            <div id="mc_embed_signup">
-                                            <form action="//nirbhaygp.us12.list-manage.com/subscribe/post?u=158b6038bc93094d48f684434&amp;id=d3ade853f6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                                <div id="mc_embed_signup_scroll">
-                                            	<p> Get this in your inbox to start your day, subscribe to our daily newsletter.<p>
+            </div>
 
-                                            <div class="mc-field-group">
-                                            	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="john@example.com"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" onclick="subscribeoff()">
-                                            </div>
-                                          	<div id="mce-responses" class="clear">
-                                          		<div class="response" id="mce-error-response" style="display:none"></div>
-                                          		<div class="response" id="mce-success-response" style="display:none"></div>
-                                          	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-
-                                              <div class="clear" style></div>
-                                                </div>
-                                              </form>
-                                              </div>
-
-                                                      <!--End mc_embed_signup-->
-
-                                              </div>
-                            </div>
-              </header>
+        </header>
 
 
+        <div id="mustread" onclick="mustread('mustread')"></div>
+        <div class="main_content" >
+            <div class="newsletter" style="text-decoration: none;">Newsletter :<a href="news.html" style="text-decoration: none;" > 24th March </a>/<a href="archive.html" style="text-decoration: none;" > Archives</a> /<a onclick="mustread()"> Must Reads</a></div>
+
+            <div class="block1" id ="article1">
+                <div class="dater" >Wed, 24/3</div>
+                      <h2><b> What you must have missed out yesterday?</b></h2>
+                      <p><span style="color:#006DC1;font-weight:bold">#Startups</span><br>
+                      Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
+                      So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
+                      We will see those of you who make it at the other end then.
+                      </p>
 
 
-              <div class="main_content" >
-                          <div class="newsletter" style="text-decoration: none;">Newsletter :<a href="/news.html" style="text-decoration: none;" > 8th March </a>/<a href="/archive.html" style="text-decoration: none;" > Archives</a></div>
+                      <p><span style="color:#006DC1;font-weight:bold">#Business</span><br>
+                      Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
+                      So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
+                      We will see those of you who make it at the other end then.
+                      </p>
 
 
-                        <div class="block1" id ="article1">
-                          <div class="dater" >Tue, 3/1</div>
-                          <h2><b> What you must have missed out yesterday?</b></h2>
-                          <p><span style="color:#006DC1;font-weight:bold">#Startups</span><br>
-                          Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
-                          So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
-                          We will see those of you who make it at the other end then.
-                        </p>
-                        <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article1"  data-text="check" data-layout="button"></div>
-
-
-                          <p><span style="color:#006DC1;font-weight:bold">#Business</span><br>
-                          Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
-                          So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
-                          We will see those of you who make it at the other end then.
-                        </p>
-                         <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article2" data-layout="button"></div>
-
-
-                          <p><span style="color:#006DC1;font-weight:bold">#Design</span><br>
-                          Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
-                          So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
-                          We will see those of you who make it at the other end then.
-                        </p>   <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article3" data-layout="button"></div>
-                        <p><span style="color:#006DC1;font-weight:bold">#Tech</span><br>
-                        Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
-                        So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
-                        We will see those of you who make it at the other end then.
-                      </p>   <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article3" data-layout="button"></div>
+                      <p><span style="color:#006DC1;font-weight:bold">#Design</span><br>
+                      Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
+                      So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
+                      We will see those of you who make it at the other end then.
+                      </p>
+                      <p><span style="color:#006DC1;font-weight:bold">#Tech</span><br>
+                      Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
+                      So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
+                      We will see those of you who make it at the other end then.
+                      </p>
                       <p><span style="color:#006DC1;font-weight:bold">#Finance</span><br>
                       Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
                       So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
                       We will see those of you who make it at the other end then.
-                    </p>   <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article3" data-layout="button"></div>
-                        </div>
+                      </p>
+            </div>
+
+            <div id="partner"  onclick="change()"><span style="color:black;">Partners:</span> TechInAsia | Yourstory | NyTimes</div>
+
+        </div>
 
 
 
-                         <div style="display:block; position:relative; margin:0px 0px 20px 0px; " ><a id="older" href="index2.html">Older</a></div>
-                         <div id="partner"  onclick="change()"><span style="color:black;">Partners:</span> TechInAsia | Yourstory | NyTimes</div>
+    </body>
+    <footer>
 
+        <div class="foote" id="foot">
+          <div id="form">
 
+          <!-- Begin MailChimp Signup Form -->
+              <div id="mc_embed_signup">
+                <form action="//nirbhaygp.us12.list-manage.com/subscribe/post?u=158b6038bc93094d48f684434&amp;id=d3ade853f6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                          <h2>Subscribe to our mailing list</h2>
+
+                          <div class="mc-field-group">
+                             <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="john@example.com"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
                           </div>
+                          <div id="mce-responses" class="clear">
+                              <div class="response" id="mce-error-response" style="display:none"></div>
+                              <div class="response" id="mce-success-response" style="display:none"></div>
+                          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 
+                          <div class="clear" style></div>
+                    </div>
+                </form>
+              </div>
 
-	</body>
-<footer>
+          <!--End mc_embed_signup-->
 
-  <div class="foote" id="foot">
-  <div id= "form">
-  <!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="//nirbhaygp.us12.list-manage.com/subscribe/post?u=158b6038bc93094d48f684434&amp;id=d3ade853f6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
+          </div>
 
-<div class="mc-field-group">
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="john@example.com"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-</div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <a id="foot" href="index1.html">Home</a>
+          <a id="foot" href="archive.html">Briefs</a>
+          <a id="foot" href="about.html">About</a><a id="foot" href="Advertise.html">Advertise</a>
+          <a id="foot" href="index.html">Merchandise</a>
 
-    <div class="clear" style></div>
-    </div>
-</form>
-</div>
+        </div>
+    </footer>
 
-<!--End mc_embed_signup-->
-
-</div>
-<a id="foot" href="index1.html">Home</a>
-
-<a id="foot" href="archive".html">Briefs</a>
-
-<a id="foot" href="Advertise.html">Advertise</a>
-<a id="foot" href="index.html">Merchandise</a>
-</div>
-</footer>
 	</html>
