@@ -89,7 +89,9 @@ input[type="submit"] {
 	width:39%;
 	text-align:center;
 }
- #foot {font-family: 'Lato', sans-serif;;
+ #foot {
+	 text-align:center;
+	 font-family: 'Lato', sans-serif;;
 	position:relative;
 	padding: 10px 10px 20px 10px;
 	color:#000;
