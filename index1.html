@@ -14,6 +14,48 @@
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <script src="javascripts/popup.js" type="text/javascript">
   </script>
+  <script>
+  function change() {
+
+    var x = document.getElementById('partner');
+
+    x.style.width="100%";
+    x.style.height="100%";
+    x.style.top="30px";
+    x.style.position="fixed";
+    x.style.padding="25% 0 0 0";
+    x.style.margin="20px 0 0 0";
+    x.style.display="block";
+    x.style.left="0px";
+    x.style.fontSize="40px";
+    x.style.index="10000000";
+    x.style.background="rgba(255,355,255,0.9)";
+    x.onclick=function(){change1()};
+
+    var y=document.getElementById("foot");
+    y.style.display="none";
+
+
+  };
+
+  function change1() {
+  var x = document.getElementById('partner');
+
+        x.style.height="auto"
+        x.style.position="relative";
+        x.style.padding="0px 0px 0px 0px";
+        x.style.top="0px";
+        x.style.textAlign="center"
+        x.style.display="block";
+        x.style.left="none";
+        x.style.fontSize="16px";
+        x.style.index="auto";
+        x.style.background="rgba(255,355,255,1)";
+        x.onclick=function(){change()};
+        var y=document.getElementById("foot");
+        y.style.display="block";
+  };
+  </script>
 
   <title>thybrief</title>
   </head>
@@ -22,6 +64,7 @@
     <body onload="setTimeout(subscribeon,30000)">
 
       <div id="fb-root"></div>
+
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -30,7 +73,7 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
             <header class="layout">
-                        	<h1>thybrief</h1>
+                        	<h1 style="color:#006DC1;">thy<span style="color:#D57E0C;">brief<span></h1>
 
                           <div class="menu">
                           <a id="menu1" href="index1.html">Home</a>
@@ -73,42 +116,57 @@
 
 
               <div class="main_content" >
-                          <div class="newsletter" style="text-decoration: none;">Newsletter :<a href="/news.html" style="text-decoration: none;" > 8th March </a> |<a href="/archive.html" style="text-decoration: none;" > Archives</a></div>
+                          <div class="newsletter" style="text-decoration: none;">Newsletter :<a href="/news.html" style="text-decoration: none;" > 8th March </a>/<a href="/archive.html" style="text-decoration: none;" > Archives</a></div>
+
+
                         <div class="block1" id ="article1">
                           <div class="dater" >Tue, 3/1</div>
-                          <a href="http://thehustle.co/meet-the-former-buddhist-monk-whos-changing-how-the-world-meditates" title="Meet the Former Buddhist Monk Who’s Changing How the World Meditates">
-                          <img id="image" src="http://thehustle.co/wp-content/uploads/2016/03/andy_puddicombe_headspace.jpg"  scale="0">
-                          <h2>Meet the Former Buddhist Monk Who’s Changing How the World Meditates</h2>
-                          <h3>Headspace is an app that enables its users to practice meditation online, when they want, wherever they are, in just 10 minutes a day. And the founders are speaking at Hustle Con! </h3>
-                        </a><div class="fb-share-button" data-href="http://thybrief.co/index1.html#article1"  data-text="check" data-layout="button"></div>
-                        </div>
-                        <div class="block1" id="article2">
-                          <div class="dater" >Tue, 3/1</div>
-                          <a href="http://yourstory.com/2016/03/tech-mahindra-startup-garage/" title="Tech Mahindra to launch startup garage for in-house entrepreneurs">
-                          <img src="http://d152j5tfobgaot.cloudfront.net/wp-content/uploads/2016/03/yourstory-startupgarage.jpg" style="max-width:100%;box-shadow:-5px 5px 8px rgba(0,0,0,.15);" scale="0">
-                          <h2>Tech Mahindra to launch startup garage for in-house entrepreneurs</h2>
-                          <h3>In a first for a corporate entity, Tech Mahindra is all set to create a ‘startup garage’ for its in-house entrepreneurs. “Within our set-up, we have a number of companies that is working already. But we are about to launch a garage soon.</h3>
-                        </a> <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article2" data-layout="button"></div>
-                        </div>
-                        <div class="block1" id="article3">
-                          <div class="dater" >Tue, 3/1</div>
-                          <a href="http://firstround.com/review/the-magical-benefits-of-the-quitters-mindset/" title="The Magical Benefits of the 'Quitter's Mindset'">
-                          <img src="http://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/2VjwJ7iTgeiztZCstSrC_0A0A1151.jpg" style="max-width:100%;box-shadow:-5px 5px 8px rgba(0,0,0,.15);" scale="0">
-                          <h2>The Magical Benefits of the 'Quitter's Mindset'</h2>
-                          <h3>Ellen Chisa knew she had to quit Harvard Business School. She looked out the window, and back down to her desk where a full-time offer letter from Lola sat, awaiting her reply. It didn’t matter that she’d only finished her first year. Or that most people she asked said it was a mistake. She knew it was time to make a change, and she did.</h3>
-                        </a>   <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article3" data-layout="button"></div>
+                          <h2><b> What you must have missed out yesterday?</b></h2>
+                          <p><span style="color:#006DC1;font-weight:bold">#Startups</span><br>
+                          Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
+                          So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
+                          We will see those of you who make it at the other end then.
+                        </p>
+                        <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article1"  data-text="check" data-layout="button"></div>
+
+
+                          <p><span style="color:#006DC1;font-weight:bold">#Startups</span><br>
+                          Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
+                          So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
+                          We will see those of you who make it at the other end then.
+                        </p>
+                         <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article2" data-layout="button"></div>
+
+
+                          <p><span style="color:#006DC1;font-weight:bold">#Startups</span><br>
+                          Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
+                          So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
+                          We will see those of you who make it at the other end then.
+                        </p>   <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article3" data-layout="button"></div>
+                        <p><span style="color:#006DC1;font-weight:bold">#Startups</span><br>
+                        Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
+                        So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
+                        We will see those of you who make it at the other end then.
+                      </p>   <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article3" data-layout="button"></div>
+                      <p><span style="color:#006DC1;font-weight:bold">#Startups</span><br>
+                      Kashyap Deorah whispers about the Integrity issues plaguing the Indian Start-ups, Hyper-funding in the food-tech industry already smells rotten.
+                      So you could instead just quit your start-up or persevere as the golden words of building a company always has been, till the next round of funding...
+                      We will see those of you who make it at the other end then.
+                    </p>   <div class="fb-share-button" data-href="http://thybrief.co/index1.html#article3" data-layout="button"></div>
                         </div>
 
 
 
-                         <div style="display:block; position:relative; margin-top:60px; " ><a id="older" href="index2.html">Older</a></div>
+                         <div style="display:block; position:relative; margin:0px 0px 20px 0px; " ><a id="older" href="index2.html">Older</a></div>
+                         <div id="partner"  onclick="change()"><span style="color:black;">Partners:</span> TechInAsia | Yourstory | NyTimes</div>
+
+
                           </div>
-
 
 
 	</body>
 <footer>
-  <div class="partners"><h3>Partners</h3></div>
+
   <div class="foote" id="foot">
   <div id= "form">
   <!-- Begin MailChimp Signup Form -->
@@ -134,7 +192,9 @@
 
 </div>
 <a id="foot" href="index1.html">Home</a>
+
 <a id="foot" href="archive".html">Briefs</a>
+
 <a id="foot" href="Advertise.html">Advertise</a>
 <a id="foot" href="index.html">Merchandise</a>
 </div>
