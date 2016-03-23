@@ -7,90 +7,29 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-<script>
-function myfunction() {
-var x = document.getElementById("demo");
-  x.style.background =rgba(255,2550,255,.7)
-	x.style.width="100%";
-	x.style.height="100%";
-	x.style.position="fixed";
-	x.style.visibility="visible";
-
-var y=document.getElementById("foot");
-y.style.display="none";
-
-var z=document.getElementById("form1");
-z.style.display="block";
-
-console.log(y);
- }
-
- function mychange() {
- var x = document.getElementById("demo");
- x.style.visibility="hidden";
-
- x = document.getElementById("foot");
- x.style.display="block";
-
- x = document.getElementById("form1");
- x.style.display="none";
-
- }
-</script>
+  <script src="javascripts/popup.js" type="text/javascript"></script>
+  <script src="javascripts/switch.js" type="text/javascript">
+  </script>
     <title>thybrief</title>
   </head>
-    <body style="height:100%;" onload="setTimeout(myfunction,30000)">
+    <body style="height:100%;" onload="setTimeout(subscribeon,30000); setTimeout(subscribeoff,60000)">
 
 
 	<header class="layout">
 	<h1>thybrief</h1>
 	<div class="menu">
 <a id="menu1" href="index1.html">Home</a>
-<a id="menu1" href="archive.html">Briefs</a>
-
-<a id="menu1" href="index1.html">Merchandise</a>
+<a id="menu1" href="archive.html">Archives</a>
+<a id="menu1" href="" onclick="about();return false;">About</a>
 </div>
-<script>
-function myfunction() {
-var x = document.getElementById("demo");
 
-	x.style.width="50%";
-	x.style.height="40%";
-  x.style.right="25%";
-  x.style.top="25%";
-	x.style.position="fixed";
-	x.style.visibility="visible";
 
-var y=document.getElementById("foot");
-y.style.display="none";
-
-var z=document.getElementById("form1");
-z.style.display="block";
-
-x=document.getElementsByTagName("body")
-x.style.opacity = 0.7;
-console.log(y);
- }
-
- function mychange() {
- var x = document.getElementById("demo");
- x.style.visibility="hidden";
-
- x = document.getElementById("foot");
- x.style.display="block";
-
- x = document.getElementById("form1");
- x.style.display="none";
-
- }
-</script>
-
-<a id="forkme_banner" onclick="myfunction();return false;" >Subscribe</a>
+<a id="forkme_banner" onclick="subscribeon();return false;" >Subscribe</a>
 
 
 <div id="demo" >
 <div id= "form1" style="display:none;">
-  <img src="https://cdn4.iconfinder.com/data/icons/status-1/128/Status_check_mark_no_thick_bold-512.png" onclick="mychange()" style="width:3%;margin-left:80%;" scale="0">
+  <img src="https://cdn4.iconfinder.com/data/icons/status-1/128/Status_check_mark_no_thick_bold-512.png" onclick="subscribeoff()" style="width:3%;margin-left:80%;" scale="0">
   <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
 <form action="//nirbhaygp.us12.list-manage.com/subscribe/post?u=158b6038bc93094d48f684434&amp;id=d3ade853f6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -114,6 +53,17 @@ console.log(y);
 
 </div></div>
   </header>
+  <div id="about">
+
+      <h1 style="color:#006DC1">Who are we</h1>
+      <span style="max-width:280px; font-size:20px;"> Two guys working in the startup industry on mission to bring the best content to the millenials<span>
+      <h2>Nirbhay Gupta</h2>
+      <span></span>
+      <h2>Shubham Ruhela</h2>
+      <span></span>
+      <a href="" id="close" onclick="unabout()" style="color:#006DC1;font-size:16px; text-decoration:none;" >Close</a>
+
+  </div>
   <div id="demo"></div>
 
 <div class="main_content">
@@ -154,7 +104,8 @@ console.log(y);
 
 </div>
 <a id="foot" href="index1.html">Home</a>
-<a id="foot" href="archive.html">Briefs</a>
+<a id="foot" href="archive.html">Archives</a>
+<a id="foot" href="" onclick="about();return false;">About</a>
 <a id="foot" href="Advertise.html">Advertise</a>
 <a id="foot" href="index.html">Merchandise</a>
 </div>

@@ -29,7 +29,7 @@
 
             <div class="menu">
             <a id="menu1" href="index1.html">Home</a>
-            <a id="menu1" href="archive.html">Briefs</a>
+            <a id="menu1" href="archive.html">Archives</a>
             <a id="menu1" href="" onclick="about();return false;">About</a>
             </div>
 
@@ -38,7 +38,7 @@
 
             <div id="demo" >
                 <div id= "form1" style="display:none;">
-                    <img src="https://cdn4.iconfinder.com/data/icons/status-1/128/Status_check_mark_no_thick_bold-512.png" onclick="subscribeoff()" style="width:3%;margin-left:80%;" scale="0">
+
                 <!-- Begin MailChimp Signup Form -->
                     <div id="mc_embed_signup">
                       <form action="//nirbhaygp.us12.list-manage.com/subscribe/post?u=158b6038bc93094d48f684434&amp;id=d3ade853f6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -59,25 +59,29 @@
                     </div>
 
                 <!--End mc_embed_signup-->
-
+                  <a href="" id="close" onclick="subscribeoff()" style="color:white;font-family:inherit; font-size:16px; text-decoration:none;" >Close</a>
                 </div>
             </div>
 
 
         </header>
-        <div id="about" onclick="unabout()">
-            <h1>Who are we</h1>
-            <span style="width:560px; font-size:18px;"> Two guys working in the startup industry on mission to bring the best content to the millenials<span>
+        <div id="about">
+
+            <h1 style="color:#006DC1">Who are we</h1>
+            <span style="max-width:280px; font-size:20px;"> Two guys working in the startup industry on mission to bring the best content to the millenials<span>
             <h2>Nirbhay Gupta</h2>
             <span></span>
             <h2>Shubham Ruhela</h2>
             <span></span>
+            <a href="" id="close" onclick="unabout()" style="color:#006DC1;font-size:16px; text-decoration:none;" >Close</a>
 
         </div>
 
-        <div id="mustread" onclick="mustread('mustread')"></div>
+        <div id="mustread" onclick="mustread()">
+          <a href="" id="close" onclick="mustunread()" style="top:100px; text-align:center;color:#006DC1;font-size:16px; text-decoration:none;z-index:1000;display:block;">Close</a>
+        </div>
         <div class="main_content" >
-            <div class="newsletter" style="text-decoration: none;">Newsletter :<a href="news.html" style="text-decoration: none;" > 24th March </a>/<a href="archive.html" style="text-decoration: none;" > Archives</a> /<a onclick="mustread()"> Must Reads</a></div>
+            <div class="newsletter" style="text-decoration: none;">Newsletter :<a href="news.html" style="text-decoration: none;" > 24th March </a>|<a href="archive.html" style="text-decoration: none;" > Archives</a> |<a onclick="mustread()"> Must Reads</a></div>
 
             <div class="block1" id ="article1">
                 <div class="dater" >Wed, 24/3</div>
@@ -149,8 +153,9 @@
           </div>
 
           <a id="foot" href="index1.html">Home</a>
-          <a id="foot" href="archive.html">Briefs</a>
-          <a id="foot" href="about.html">About</a><a id="foot" href="Advertise.html">Advertise</a>
+          <a id="foot" href="archive.html">Archives</a>
+          <a id="foot" href="" onclick="about();return false;">About</a>
+          <a id="foot" href="Advertise.html">Advertise</a>
           <a id="foot" href="index.html">Merchandise</a>
 
         </div>

@@ -17,27 +17,4 @@ function subscribeoff() {
 
  x = document.getElementById("form1");
   x.style.display="none";
-
- }
-
-
- function overlyon() {
-   var x = document.getElementById("image")
-     x.style.opacity=0.4;
-
-   var y=document.getElementById("Yourstory");
-     y.style.display="block";
-     
-
-
- }
- function overlyoff() {
-   var x = document.getElementById("image")
-     x.style.opacity=1;
-
-   var y=document.getElementById("Yourstory");
-     y.style.display="none";
-
-
-
- }
+}

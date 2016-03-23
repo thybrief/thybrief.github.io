@@ -49,6 +49,8 @@ function mustread(){
   x.style.zIndex="100";
   x.style.background="rgba(255,255,255,0.7)";
   x.onclick=function(){mustunread()};
+  var y=document.getElementById("foot");
+    y.style.display="none";
 
 }
 function mustunread(){
@@ -61,6 +63,8 @@ function mustunread(){
   x.style.zIndex="100000";
   x.style.background="rgba(255,255,255,0.7)";
   x.onclick=function(){unabout()};
+  var y=document.getElementById("foot");
+    y.style.display="block";
 
 }
 
@@ -77,6 +81,9 @@ function about(){
   x.style.background="rgba(255,255,255,0.9)";
   x.onclick=function(){unabout()};
 
+  var y=document.getElementById("foot");
+    y.style.display="none";
+
 }
 
 function unabout(){
@@ -88,5 +95,8 @@ function unabout(){
   x.style.zIndex="100000";
   x.style.background="rgba(255,255,255,0.7)";
   x.onclick=function(){about()};
+
+  var y=document.getElementById("foot");
+    y.style.display="block";
 
 }
